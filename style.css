@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ddd6f3;
+  background: -webkit-linear-gradient(to bottom, #ddd6f3, #faaca8);
+  background: linear-gradient(to bottom, #ddd6f3, #faaca8);
+  height: 900px;
+  font-family: monospace;
+}
+
+main {
+  margin: 8%;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+button {
+  padding: 1% 1.2%;
+  border: 1px solid #000;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  width: 100px;
+  height: 40px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #000;
+}
+input {
+  width: 200px;
+  height: 40px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 2%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 0px 20px 15px 20px;
+}
+
+#makeNewToDo div {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.toDoKnappen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.listerne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 3%;
+  width: fit-content;
+}
+
+#todoListen li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #a61c3c;
+  margin: 1.5%;
+  padding: 2%;
+  background-color: #a61c3c1a;
+}
+
+#doneListen li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #4f9d69;
+  margin: 1.5%;
+  padding: 2%;
+  background-color: #4f9d691a;
+}
+
+.boksen {
+  width: fit-content;
+  background-color: #f7f3e3;
+}
+
+svg {
+  width: auto;
+  height: auto;
+  transition: transform 0.2s;
+}
+svg:hover {
+  transform: scale(1.1);
+}
+
+.theNumbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+.theNumbers input {
+  width: 75px;
+  height: 35px;
+}
+
+#textInput {
+  width: 250px;
+}
+
+.kasse1 {
+  display: flex;
+  flex-direction: column;
+  border-right-style: dotted;
+  padding-right: 1pc;
+}
+.kasse1 h2 {
+  text-decoration: underline;
+  padding: 1%;
+}
+.kasse2 h2 {
+  text-decoration: underline;
+  padding: 1%;
+}
+.kasse2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#item-counter {
+  padding-top: 2%;
+  font-size: 15px;
+}
