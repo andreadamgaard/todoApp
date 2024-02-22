@@ -136,7 +136,7 @@ svg:hover {
   flex-direction: column;
   border-right-style: dotted;
   padding-right: 1pc;
-  width: 350px;
+  width: fit-content;
 }
 .kasse1 h2 {
   text-decoration: underline;
@@ -149,7 +149,7 @@ svg:hover {
 .kasse2 {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: fit-content;
 }
 
 #item-counter {
